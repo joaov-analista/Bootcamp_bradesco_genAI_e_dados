@@ -1,4 +1,4 @@
-# [Bootcamp_Bradesco_- GenAI_e_Dados]
+# Bootcamp_Bradesco_- GenAI_e_Dados
 Este repositório contém todos os projetos realizados durante o bootcamp do [Bradesco na DIO](https://web.dio.me/track/bradesco-genai-dados)
 
 #  Sobre o Bootcamp
