@@ -14,4 +14,4 @@ Bancos de dados relacionais
 Business Intelligence
 Python
 
-Todos os projetos realizados podem ser encontrados [aqui]()
+Todos os projetos realizados podem ser encontrados [aqui](https://github.com/joaov-analista/Bootcamp_bradesco_genAI_e_dados/blob/main/Projetos)
