@@ -12,3 +12,8 @@ INSERT INTO viagens.reservas (id, id_usuario, id_destino, data, status) VALUES
 (1, 1, 2, '2023-07-10', 'confirmada'),
 (2, 2, 1, '2023-08-05', 'pendente'),
 (3, 3, 3, '2023-09-20', 'cancelada');
+
+
+-- Migrando os dados da tabela de usuarios antiga para a nova tabela de backup --
+INSERT INTO usuarios_nova
+SELECT * from usuarios;
