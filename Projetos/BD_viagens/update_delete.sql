@@ -8,6 +8,22 @@ UPDATE usuarios SET endereco = 'Nova Rua, 123' WHERE email = 'joao@example.com';
 -- Renomeando nova tabela usuarios --
 ALTER TABLE usuarios_nova RENAME usuarios;
 
+-- inserindo Primary Key nas tabelas--
+-- Tabela "usuarios"
+ALTER TABLE usuarios
+MODIFY COLUMN id INT AUTO_INCREMENT,
+ADD PRIMARY KEY (id);
+
+-- Tabela "destinos"
+ALTER TABLE destinos
+MODIFY COLUMN id INT AUTO_INCREMENT,
+ADD PRIMARY KEY (id);
+
+-- Tabela "reservas"
+ALTER TABLE reservas
+MODIFY COLUMN id INT AUTO_INCREMENT,
+ADD PRIMARY KEY (id);
+
 
 
 -- delete --
