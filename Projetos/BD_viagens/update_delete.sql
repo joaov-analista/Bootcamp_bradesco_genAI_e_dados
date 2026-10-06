@@ -24,7 +24,17 @@ ALTER TABLE reservas
 MODIFY COLUMN id INT AUTO_INCREMENT,
 ADD PRIMARY KEY (id);
 
+-- inserindo Chaves estrangeiras nas tabelas --
+-- Adicionando chave estrangeira na tabela "reservas" referenciando a tabela "usuarios"
+ALTER TABLE reservas
+ADD CONSTRAINT fk_reservas_usuarios
+FOREIGN KEY (id_usuario) REFERENCES usuarios(id)
+ON DELETE CASCADE;
 
+-- Adicionando chave estrangeira na tabela "reservas" referenciando a tabela "destinos"
+ALTER TABLE reservas
+ADD CONSTRAINT fk_reservas_destinos
+FOREIGN KEY (id_destino) REFERENCES destinos(id);
 
 -- delete --
 DELETE FROM reservas WHERE status = 'cancelada';
