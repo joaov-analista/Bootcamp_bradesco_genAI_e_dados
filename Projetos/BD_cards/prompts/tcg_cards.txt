@@ -28,3 +28,5 @@ the second table: tbl_collections
 "create another tables and link to tbl_cards
 - create a table to separate type
 - create a table to separate stage"
+
+"traga todas as informações  da tbl_cards, substituindo pelos nomes das chaves estrangeiras. salve isso em uma view para o postgresql"
