@@ -1,4 +1,4 @@
-create a script to create a table in PostgreSQL
+"create a script to create a table in PostgreSQL
 
 the first table is a table to sabe a pokemon tcg cards
 the second table is a tav=ble to save collections set
@@ -23,4 +23,8 @@ the second table: tbl_collections
 - id
 -collectionsetname
 - release date
-- totalcardsincollection
+- totalcardsincollection"
+
+"create another tables and link to tbl_cards
+- create a table to separate type
+- create a table to separate stage"
